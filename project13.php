@@ -23,7 +23,7 @@
             padding-left: 20px;
         }
         .container{
-            padding: 0;
+
         }
 
         .course {
@@ -58,8 +58,7 @@ quốc tế.',
     [
         'linkimg' => 'https://aptech.vn/wp-content/uploads/2021/05/Lap-trinh-web-voi-php.png.webp',
         'title' => 'LẬP TRÌNH WEB FULLSTACK',
-        'description' => 'Khóa học phù hợp với người bắt đầu lập trình hoặc người chuyển nghề
-        . Trang bị từ frontend đến backend, xây dựng website hoàn chỉnh sau khóa học.',
+        'description' => 'Khóa học phù hợp với người bắt đầu lập trình, người chuyển nghề. Trang bị từ fe đến be, xây dựng website hoàn chỉnh sau khóa học.',
         'fee' => 'Ưu đãi giảm 15% học phí',
         'start_date' => '2/2024',
         'duration' => '6 tháng'
@@ -101,7 +100,7 @@ quốc tế.',
     ],
     // Thêm các khóa học khác vào đây
 ];
-echo '<div class="container"> <h1 class="title">KHÓA HỌC SẮP KHAI GIẢNG</h1><div class="row row-cols-3">';
+echo '<div class="container"> <h1 class="title">KHÓA HỌC SẮP KHAI GIẢNG</h1><div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">';
 foreach ($courses as $course) {
     echo '<div class="col course">';
     echo '<img src="' . $course['linkimg'] . '" class="img-fluid">';

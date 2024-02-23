@@ -27,6 +27,9 @@
             padding-top: 0;
             padding-bottom: 0;
         }
+        .nav-link:last-child a{
+            border-right: none;
+        }
 
     </style>
 </head>
