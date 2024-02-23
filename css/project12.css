@@ -1,0 +1,39 @@
+.mainmenu {
+    margin: auto;
+    background-color: #0a1f77;
+    list-style: none;
+    overflow: auto;
+}
+
+.mainmenu i {
+    float: left;
+    display: block;
+    font-size: 20px;
+}
+
+.mainmenu li {
+    float: left;
+    color: white;
+    margin: 15px 0px;
+    padding: 0px 15px;
+    border-right: 1px solid white;
+}
+.mainmenu li:last-child{
+    border-right: 0px;
+}
+@media screen and (max-width: 800px) {
+    ul.mainmenu li {
+        width: 100%;
+        border-right: 0px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.mainmenu::after {
+    content: "";
+    clear: both;
+    display: table;
+}
