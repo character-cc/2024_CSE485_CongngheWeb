@@ -1,0 +1,36 @@
+html, body {
+    width: 80%;
+    margin: 0 auto; /* Centering */
+    display: flex;
+    justify-content: center;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+.section_container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.form_field {
+    display: flex;
+}
+
+label {
+    min-width: 140px;
+}
+
+.section_container .standard_input {
+    flex: 1;
+    height: 25px;
+}
+button{
+    float: right;
+}
