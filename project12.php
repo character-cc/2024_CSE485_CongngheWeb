@@ -24,12 +24,35 @@
         .navbar li:last-child {
             border-right: none;
         }
+        @media only screen and (max-width: 46.1875em) {
+            .navbar {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start; /* Căn trái các mục khi chúng được xếp theo hàng dọc */
+            }
+            .navbar li {
+                border-right: none; /* Loại bỏ đường viền bên phải */
+                padding: 10px; /* Cung cấp khoảng cách dừng giữa các mục */
+            }
+        }
 
+        @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+            .navbar {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start; /* Căn trái các mục khi chúng được xếp theo hàng dọc */
+            }
+            .navbar li {
+                border-right: none; /* Loại bỏ đường viền bên phải */
+                padding: 10px; /* Cung cấp khoảng cách dừng giữa các mục */
+            }
+    }    
     </style>
 </head>
 <body>
 <?php
 $navbarItems = [
+    '<i class="fa-solid fa-house"></i>',
     "GIỚI THIỆU",
     "TIN TỨC & THÔNG BÁO",
     "TUYỂN SINH",
@@ -42,7 +65,6 @@ $navbarItems = [
 ];
 
 echo '<ul class="navbar">';
-echo '<li><i class="fa-solid fa-house"></i></li>';
 foreach ($navbarItems as $item) {
     echo "<li>$item</li>";
 }
