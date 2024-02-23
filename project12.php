@@ -28,11 +28,11 @@
             .navbar {
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start; /* Căn trái các mục khi chúng được xếp theo hàng dọc */
+                align-items: flex-start;
             }
             .navbar li {
-                border-right: none; /* Loại bỏ đường viền bên phải */
-                padding: 10px; /* Cung cấp khoảng cách dừng giữa các mục */
+                border-right: none;
+                padding: 10px;
             }
         }
 
@@ -40,11 +40,11 @@
             .navbar {
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start; /* Căn trái các mục khi chúng được xếp theo hàng dọc */
+                align-items: flex-start;
             }
             .navbar li {
-                border-right: none; /* Loại bỏ đường viền bên phải */
-                padding: 10px; /* Cung cấp khoảng cách dừng giữa các mục */
+                border-right: none;
+                padding: 10px;
             }
     }    
     </style>
