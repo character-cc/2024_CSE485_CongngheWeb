@@ -5,30 +5,36 @@
     <title>Danh Sách Sản Phẩm</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <style>
+        html,body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         .Main-body{
+            margin: auto;
             display: inline-block;
-            margin: 50px;
+            width: auto;
+
         }
         .Main-body h2{
-            margin: 0 0 0 130px;
+            margin-left: 130px;
             border-left:5px solid red;
-            padding: 0 0 0 10px;
+            padding-left: 10px;
         }
         .courses{
+            width: 70%;
             display: flex;
-            flex-wrap: wrap;
-            margin: 0 80px 0 80px;
             justify-content: center;
+            flex-wrap: wrap;
+            margin: auto;
 
         }
         .course{
             flex-basis: 30%;
             margin: 10px;
-            position: relative;
+            text-align: justify;
         }
-        .course p{
-            width: 75%;
-        }
+
         @media only screen and (max-width: 46.1875em) {
         .courses{
             display: flex;
@@ -46,7 +52,7 @@
 <?php
 $courses = [
     [
-        'img' =>'<img src="Picture/2024-02-23 134834.png" alt="Pic1">',
+        'img' => '<img src="Picture/2024-02-23%20134834.png" alt="Pic1">',
         'title' => 'LẬP TRÌNH VIÊN QUỐC TẾ',
         'description' => 'Chương trình đào tạo chất lượng cao về tin học và tiếng Anh.',
         'price' => '15.000.000 VND',
@@ -54,7 +60,7 @@ $courses = [
         'duration' => '2 - 2.5 năm'
     ],
     [
-        'img' =>'<img src="Picture/WebDev.png" alt="Pic2">',
+        'img' => '<img src="Picture/WebDev.png" alt="Pic2">',
         'title' => 'LẬP TRÌNH WEB FULLSTACK',
         'description' => 'Khóa học phù hợp với người bắt đầu lập trình hoặc người chuyển nghề. Trang bị từ frontend đến backend, xây dựng website hoàn chỉnh sau khóa học.',
         'price' => 'Ưu đãi giảm 15% học phí',
@@ -62,7 +68,7 @@ $courses = [
         'duration' => '6 tháng'
     ],
     [
-        'img' =>'<img src="Picture/2024-02-23 134856.png" alt="Pic3">',
+        'img' => '<img src="Picture/2024-02-23%20134856.png" alt="Pic3">',
         'title' => 'LẬP TRÌNH JAVA FULLSTACK',
         'description' => 'Phát triển ứng dụng web từ cơ bản đến nâng cao bằng Java, các ứng dụng doanh nghiệp sử dụng J2EE, Servlet, JSP, Spring Framework, EJB,...',
         'price' => 'Ưu đãi giảm 15% học phí',
@@ -70,7 +76,7 @@ $courses = [
         'duration' => '236 giờ'
     ],
     [
-        'img' =>'<img src="Picture/2024-02-23 134923.png" alt="Pic4">',
+        'img' => '<img src="Picture/2024-02-23%20134923.png" alt="Pic4">',
         'title' => 'LẬP TRÌNH PHP & lARAVEL',
         'description' => 'PHP là một trong các ngôn ngữ thiết kế web mạnh nhất. Khóa học trang bị kỹ năng xây dựng web hoàn chỉnh sử dụng PHP kết hợp Laravel Framework.',
         'price' => '9.600.000 VND',
@@ -78,7 +84,7 @@ $courses = [
         'duration' => '36 giờ'
     ],
     [
-        'img' =>'<img src="Picture/2024-02-23 134941.png" alt="Pic5">',
+        'img' => '<img src="Picture/2024-02-23%20134941.png" alt="Pic5">',
         'title' => 'KHOA HỌC LẬP TRÌNH .NET',
         'description' => 'Phát triển ứng dụng web sử dụng nền tảng ASP.NET Core MVC. Để học tốt khóa học yêu cầu học viên đã có kiến thức C# và Frontend.',
         'price' => '6.000.000 VND',
@@ -86,7 +92,7 @@ $courses = [
         'duration' => '40 giờ'
     ],
     [
-        'img' =>'<img src="Picture/2024-02-23 134953.png" alt="Pic6">',
+        'img' => '<img src="Picture/2024-02-23%20134953.png" alt="Pic6">',
         'title' => 'LẬP TRÌNH SQL SERVER',
         'description' => 'Trang bị những kiến thức nền tảng vững chắc về SQL Server như các kỹ thuật: lọc dữ liệu, phân tích, thiết kế và quản trị cơ sở dữ liệu,...',
         'price' => '4.500.000 VND',
@@ -96,7 +102,7 @@ $courses = [
 
 ];
 echo '<div class="Main-body">';
-    echo '<h2 style="color: red">KHÓA HỌC SẮP KHAI GIẢNG</h2>';
+echo '<h2 style="color: red">KHÓA HỌC SẮP KHAI GIẢNG</h2>';
     echo '<div class="courses">';
         foreach ($courses as $course) {
             echo "<div class='course'>";

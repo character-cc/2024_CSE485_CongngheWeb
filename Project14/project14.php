@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
-    <script type="text/javascript" src="./tinymce/tinymce.min.js"></script>
+    <script type="text/javascript" src="tinymce/tinymce.min.js"></script>
     <script>
         tinymce.init({
             selector: 'textarea',
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <style>
         html,body{
-            width: 80% ;
+            width: 100% ;
             margin: 0 100px 0 100px;
             display: flex;
             justify-content: center;
@@ -28,7 +28,7 @@
        .main_container{
            display: flex;
            flex-direction: column;
-           width: 70%;
+           width: 60%;
            padding: 10px;
            border: 10px silver solid;
        }
