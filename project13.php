@@ -67,6 +67,7 @@ $courses = [
 ?>
 <h3 style="color: red; border-left: 3px solid red ;padding-left: 10px ">Khóa Học khai Giảng</h3>
 <div class="flex-container">
+
     <?php
     foreach ($courses as $course) {
         echo "<div class='box box1'>";

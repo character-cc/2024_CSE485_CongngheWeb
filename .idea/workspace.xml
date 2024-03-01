@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/project14.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/2024_CSE485_CongngheWeb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project14.php" beforeDir="false" afterPath="$PROJECT_DIR$/project14.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/demo/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/demo/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/demo/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project21/images/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project21/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project22/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project22/update_profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project23/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project23/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project23/process_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project23/profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project24/admin_panel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project24/edit_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project24/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project24/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project24/process_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project24/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/project13.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/project13.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project13.php" beforeDir="false" afterPath="$PROJECT_DIR$/project13.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +56,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Cuong&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/cnweb/2024_CSE485_CongngheWeb&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Cuong",
+    "last_opened_file_path": "E:/cnweb/2024_CSE485_CongngheWeb/project24",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project24" />
+      <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project21\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project24" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,7 +98,12 @@
       <updated>1708659944388</updated>
       <workItem from="1708659945501" duration="4880000" />
       <workItem from="1708690082222" duration="13029000" />
-      <workItem from="1708703610669" duration="670000" />
+      <workItem from="1708703610669" duration="1200000" />
+      <workItem from="1708741009935" duration="3136000" />
+      <workItem from="1708854615656" duration="1851000" />
+      <workItem from="1708932805301" duration="2522000" />
+      <workItem from="1709087262104" duration="86000" />
+      <workItem from="1709262082406" duration="13401000" />
     </task>
     <servers />
   </component>
