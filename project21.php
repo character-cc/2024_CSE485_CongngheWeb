@@ -130,9 +130,8 @@ $currentPageItems = array_slice($products, ($currentPage - 1) * $itemsPerPage, $
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <img src="<?php echo $product['image'] ?>" alt="Pic8" class="img-fluid">;
+                        <img src="<?php echo $product['image'] ?>" alt="Pic8" class="img-fluid">
                         <h5 class="card-title"><?php echo $product['name']; ?></h5>
-                        <p class="card-text"><?php echo $product['description']; ?></p>
                         <p class="card-text"><?php echo '$' . $product['price']; ?></p>
                         <a href="#" class="btn btn-primary">Buy</a>
                     </div>
