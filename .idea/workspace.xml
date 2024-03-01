@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project1/demo/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/demo/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/demo/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project21/images/cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project21/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project22/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project22/update_profile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project23/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project23/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project23/process_login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project23/profile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project24/admin_panel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project24/edit_user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project24/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project24/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project24/process_login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project24/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/project13.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/project13.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project13.php" beforeDir="false" afterPath="$PROJECT_DIR$/project13.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +84,7 @@
       <workItem from="1708854615656" duration="1851000" />
       <workItem from="1708932805301" duration="2522000" />
       <workItem from="1709087262104" duration="86000" />
-      <workItem from="1709262082406" duration="13401000" />
+      <workItem from="1709262082406" duration="14242000" />
     </task>
     <servers />
   </component>
