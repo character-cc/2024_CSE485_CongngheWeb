@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,66 +18,77 @@
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <style>
-        html,body{
-            width: 100% ;
+        html, body {
+            width: 100%;
             margin: 0 100px 0 100px;
             display: flex;
             justify-content: center;
         }
-       .main_container{
-           display: flex;
-           flex-direction: column;
-           width: 60%;
-           padding: 10px;
-           border: 10px silver solid;
-       }
-       .main_container-Compo{
-           display: flex;
-           flex-direction: column;
-           margin: 0 20px 0 20px;
 
-       }
-       h3{
-           border-bottom:2px silver solid ;
-       }
-       .basic_info{
-           display: flex;
-       }
-        label{
-           min-width: 140px;
-       }
-      .main_container-Compo .normal_input{
-          flex:1;
-          height: 25px;
-      }
-        .main_container-Footer{
+        .main_container {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            padding: 10px;
+            border: 10px silver solid;
+        }
+
+        .main_container-Compo {
+            display: flex;
+            flex-direction: column;
+            margin: 0 20px 0 20px;
+
+        }
+
+        h3 {
+            border-bottom: 2px silver solid;
+        }
+
+        .basic_info {
+            display: flex;
+        }
+
+        label {
+            min-width: 140px;
+        }
+
+        .main_container-Compo .normal_input {
+            flex: 1;
+            height: 25px;
+        }
+
+        .main_container-Footer {
             display: flex;
             justify-content: space-between;
             border-top: 5px silver solid;
             margin-top: 20px;
         }
-        button{
+
+        button {
             color: slategray;
             margin: 10px;
-                 }
-        select{
+        }
+
+        select {
             height: 35px;
             width: fit-content;
         }
-        .normal_input{
+
+        .normal_input {
             flex: fit-content;
         }
+
         @media only screen and (max-width: 46.1875em) {
         }
 
-        @media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+        @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
 
         }
     </style>
 </head>
 <body>
 <?php
-$countries = array (
+$countries = array(
     "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Anguilla",
     "Antigua & Barbuda",
     "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan",
@@ -89,10 +99,10 @@ $countries = array (
     "Bulgaria", "Burkina Faso", "Burundi", "Vietnam"
 );
 $genders = array(
-    "Male","Female","XXX","ZZZ"
+    "Male", "Female", "XXX", "ZZZ"
 );
 $preferred_shift = array(
-    'Regular','Gravy Yard'
+    'Regular', 'Gravy Yard'
 );
 ?>
 <form class="main_container">
@@ -108,21 +118,21 @@ $preferred_shift = array(
         </div>
         <div class="basic_info">
             <label>First Name</label>
-            <input class="normal_input" type="text" >
+            <input class="normal_input" type="text">
         </div>
         <div class="basic_info">
             <label>Gender</label>
             <div>
-            <?php
-            foreach ($genders as $item){
-                echo '<input  type="radio" name="gender" >'.$item.'<br>';
-            }
-            ?>
+                <?php
+                foreach ($genders as $item) {
+                    echo '<input  type="radio" name="gender" >' . $item . '<br>';
+                }
+                ?>
             </div>
         </div>
         <div class="basic_info">
             <label>Title</label>
-            <input class="normal_input" type="text" >
+            <input class="normal_input" type="text">
         </div>
         <div class="basic_info">
             <label>Suffix</label>
@@ -173,8 +183,8 @@ $preferred_shift = array(
             <label>Country</label>
             <?php
             echo '<select>';
-            foreach ($countries as $country){
-                echo '<option value="'.$country.'">'.$country.'</option>';
+            foreach ($countries as $country) {
+                echo '<option value="' . $country . '">' . $country . '</option>';
             }
             echo '</select>';
             ?>
@@ -200,11 +210,11 @@ $preferred_shift = array(
 
             <label>Preferred Shift</label>
             <div>
-            <?php
-            foreach ($preferred_shift as $value){
-                echo '<input type="checkbox" value="'.$value.'">'.$value.'<br>';
-            }
-            ?>
+                <?php
+                foreach ($preferred_shift as $value) {
+                    echo '<input type="checkbox" value="' . $value . '">' . $value . '<br>';
+                }
+                ?>
             </div>
         </div>
         <div class="basic_info">
