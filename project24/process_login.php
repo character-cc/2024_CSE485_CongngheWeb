@@ -26,7 +26,7 @@ $authorization_levels = [
         "access_profile" => true,
         "edit_profile" => true,
         "access_admin_panel" => true,
-        "manage_users" => true,
+        "..............................................................." => true,
     ],
 ];
 

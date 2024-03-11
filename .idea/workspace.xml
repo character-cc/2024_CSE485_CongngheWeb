@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/project3/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project3/controler/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project3/models/sql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project3/view/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/controllers/DepartmentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/controllers/EmployeeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project24/process_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/project24/process_login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Cuong",
-    "last_opened_file_path": "E:/cnweb/2024_CSE485_CongngheWeb/project24",
+    "last_opened_file_path": "E:/cnweb/2024_CSE485_CongngheWeb",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,6 +67,7 @@
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project21\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project3\view" />
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project24" />
     </key>
   </component>
@@ -84,7 +93,12 @@
       <workItem from="1708854615656" duration="1851000" />
       <workItem from="1708932805301" duration="2522000" />
       <workItem from="1709087262104" duration="86000" />
-      <workItem from="1709262082406" duration="14242000" />
+      <workItem from="1709262082406" duration="14407000" />
+      <workItem from="1709346882987" duration="1886000" />
+      <workItem from="1709468108881" duration="608000" />
+      <workItem from="1709694378936" duration="1188000" />
+      <workItem from="1709870795508" duration="1254000" />
+      <workItem from="1710136854029" duration="325000" />
     </task>
     <servers />
   </component>
