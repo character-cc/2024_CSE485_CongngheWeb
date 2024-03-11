@@ -14,7 +14,6 @@ $users = [
         "email" => "character@example.com",
         "role" => "admin"
     ],
-
 ];
 $authorization_levels = [
     "user" => [

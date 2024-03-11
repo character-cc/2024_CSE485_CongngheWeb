@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project32/app/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/controllers/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/public/assets/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project24/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/project24/edit_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/models/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/models/Employee.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -37,22 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Cuong",
-    "last_opened_file_path": "E:/cnweb/2024_CSE485_CongngheWeb",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "JavaScript.Libraries",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Contacts__Management&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/cnweb/2024_CSE485_CongngheWeb&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project24" />
@@ -90,7 +98,8 @@
       <workItem from="1709468108881" duration="608000" />
       <workItem from="1709694378936" duration="1188000" />
       <workItem from="1709870795508" duration="1254000" />
-      <workItem from="1710136854029" duration="679000" />
+      <workItem from="1710136854029" duration="1443000" />
+      <workItem from="1710140161731" duration="10678000" />
     </task>
     <servers />
   </component>
