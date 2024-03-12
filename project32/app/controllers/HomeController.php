@@ -2,5 +2,10 @@
 
 class HomeController
 {
-
+  public function index()
+  {
+      include ("./views/layouts/header.php");
+  }
 }
+
+?>

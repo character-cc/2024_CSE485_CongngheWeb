@@ -17,9 +17,6 @@ class connectDB
         }
     }
 
-    /**
-     * @return mixed
-     */
     public function getConn()
     {
         return $this->conn;

@@ -18,7 +18,7 @@
     <input type="checkbox" id="check">
     <div class="login form">
         <header>Login</header>
-        <form action="../controllers/LoginController.php" method="post">
+        <form action="./index.php?controller=login&action=checkUser" method="post">
             <input type="text" placeholder="Enter your email" name="username">
             <input type="password" placeholder="Enter your password" name="password">
             <a href="#">Forgot password?</a>

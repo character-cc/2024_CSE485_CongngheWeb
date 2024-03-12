@@ -1,5 +1,5 @@
 <?php
-include("../config/database.php");
+include("./config/database.php");
 
 class User
 {
@@ -33,17 +33,17 @@ class User
 // Kiểm tra kết quả trả về
         if ($result->num_rows > 0) {
             $row = $result ->fetch_assoc();
-            echo $row['Role'];
+            $_SESSION['user_role'] = $row['Role'];
+            $_SESSION['user_id'] = $row['Username'];
             // Đăng nhập thành công
-            echo "Đăng nhập thành công!";
+            $conn -> close();
+            return true;
 
         } else {
-            // Sai tên đăng nhập hoặc mật khẩu
-            echo "Tên đăng nhập hoặc mật khẩu không chính xác!";
+            $conn -> close();
+            return false;
         }
 
-// Đóng kết nối
-        $conn->close();
     }
 }
 ?>
