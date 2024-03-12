@@ -14,7 +14,7 @@ class LoginController
         }
         else{
          //   echo "Lỗi";
-            header("Location: ./index.php?controller=login&action=displayLogin&error=error");
+            header("Location: ./index.php?controller=login&action=displayLogin&variable1=error");
            exit; // Dừng việc thực thi mã PHP tiếp theo sau khi chuyển hướng
         }
     }

@@ -10,11 +10,11 @@ if(isset($_GET['action'])){
     $action = 'index';
 }
 
-if(isset($_GET['error'])){
-    $error = $_GET['error'];
+if(isset($_GET['variable1'])){
+    $variable1 = $_GET['variable1'];
 }
 else{
-    $error = "";
+    $variable1 = "";
 }
 //Phan tich URI > Controller: A = Cateogory, Home, Post, User
 $controller = ucfirst($controller);
@@ -32,4 +32,4 @@ if(!method_exists($controller, $action)){
     die('Phuong thuc ko ton tai');
     exit(1);
 }
-$myController->$action($error);
+$myController->$action($variable1);
