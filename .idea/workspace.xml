@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project32/app/views/link_html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project32/app/views/search/result_search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/2024_CSE485_CongngheWeb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project32/app/controllers/LogoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/LogoutController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/controllers/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/SearchController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/models/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/models/Search.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Contacts__Management&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/cnweb/2024_CSE485_CongngheWeb/project32/app/views/home&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;JavaScript.Libraries&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging Contacts__Management",
+    "last_opened_file_path": "E:/cnweb/2024_CSE485_CongngheWeb/project32/app/views/home",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project32\app\views\home" />
@@ -106,7 +102,7 @@
       <workItem from="1710175975817" duration="254000" />
       <workItem from="1710178921296" duration="84000" />
       <workItem from="1710209614354" duration="7790000" />
-      <workItem from="1710218051741" duration="21293000" />
+      <workItem from="1710218051741" duration="21611000" />
     </task>
     <servers />
   </component>
