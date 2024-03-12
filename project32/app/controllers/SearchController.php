@@ -6,9 +6,10 @@ class SearchController
     {
         $s = new Search();
         $data = $s ->getDataBySearch();
-        echo "<pre>";
-        print_r($data);
-        echo "</pre>";
+//        echo "<pre>";
+//        print_r($data);
+//        echo  " </pre>";
+        include ("./views/search/result_search.php");
     }
 }
 

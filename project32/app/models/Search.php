@@ -2,11 +2,11 @@
 include("./config/database.php");
 class Search
 {
+    private $total_page;
     public function getDataBySearch()
     {
         $cnt = new connectDB();
         $conn = $cnt->getConn();
-
         $contact = $_POST['contact'];
         $input_search = $_POST['search'];
         $data = [];
@@ -33,6 +33,8 @@ class Search
         }
 
         $conn -> close();
+        $data = array('departments' => $departments , 'employees' => $employees);
+        $this -> total_page =  count($data);
         return $data;
 
     }

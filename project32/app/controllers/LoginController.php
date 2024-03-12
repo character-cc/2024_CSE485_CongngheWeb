@@ -20,11 +20,11 @@ class LoginController
     }
     public function displayLogin($error)
     {
-        if(isset($_SESSION['user_id'])){
-            header("Location: ./index.php");
-            exit;
-        }
-        elseif(!empty($error)){
+//        if(isset($_SESSION['user_id'])){
+//            header("Location: ./index.php");
+//            exit;
+//        }
+        if(!empty($error)){
             echo "Nhập sai tài khoản hoặc mật khẩu";
         }
         include ("./views/login.php");

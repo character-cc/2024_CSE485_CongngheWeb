@@ -1,5 +1,5 @@
 <?php
-
+include ("./views/link_html.php");
 //localhost/newmvc/index.php?controller=A&action=B
 $controller = isset($_GET['controller'])? $_GET['controller'] : 'home';
 session_start();
@@ -33,3 +33,14 @@ if(!method_exists($controller, $action)){
     exit(1);
 }
 $myController->$action($variable1);
+
+
+
+
+
+
+
+?>
+
+</body>
+</html>

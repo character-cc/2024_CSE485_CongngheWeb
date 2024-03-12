@@ -8,6 +8,7 @@ class LogoutController
            unset($_SESSION['user_id']);
            unset($_SESSION['user_role']);
            header("Location: ./index.php");
+           echo "jjdjdjjd";
        }
    }
 }
