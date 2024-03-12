@@ -1,7 +1,7 @@
 <?php
 include("./config/database.php");
 
-class User
+class Login
 {
     private $username;
     private $password;

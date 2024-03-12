@@ -16,7 +16,7 @@ if(isset($_GET['variable1'])){
 else{
     $variable1 = "";
 }
-//Phan tich URI > Controller: A = Cateogory, Home, Post, User
+//Phan tich URI > Controller: A = Cateogory, Home, Post, Login
 $controller = ucfirst($controller);
 $controller = $controller.'Controller';
 $path = 'controllers/'.$controller.'.php';
@@ -26,6 +26,7 @@ if(!file_exists($path)){
     die('Tep tin khong ton tai');
     exit(1);
 }
+echo $path;
 include($path);
 $myController = new $controller();
 if(!method_exists($controller, $action)){
@@ -33,13 +34,6 @@ if(!method_exists($controller, $action)){
     exit(1);
 }
 $myController->$action($variable1);
-
-
-
-
-
-
-
 ?>
 
 </body>

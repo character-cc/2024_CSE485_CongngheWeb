@@ -10,7 +10,7 @@ if(isset($_GET['action'])){
 }else{
     $action = 'index';
 }
-//Phan tich URI > Controller: A = Cateogory, Home, Post, User
+//Phan tich URI > Controller: A = Cateogory, Home, Post, Login
 $controller = ucfirst($controller);
 $controller = $controller.'Controller';
 $path = 'controllers/'.$controller.'.php';

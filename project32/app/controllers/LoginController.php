@@ -1,5 +1,5 @@
 <?php
-include ("./models/User.php");
+include ("./models/Login.php");
 
 class LoginController
 {
@@ -7,7 +7,7 @@ class LoginController
     {
         $input_username = $_POST['username'];
         $input_password = $_POST['password'];
-        $checkuser = new User($input_username,$input_password);
+        $checkuser = new Login($input_username,$input_password);
         if($checkuser ->checkInfor()){
             header("Location: ./index.php");
             exit; // Dừng việc thực thi mã PHP tiếp theo sau khi chuyển hướng
@@ -30,6 +30,4 @@ class LoginController
         include ("./views/login.php");
     }
 }
-
-
 ?>
