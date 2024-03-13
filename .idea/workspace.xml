@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="" />
-=======
     <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/project32/app/views/search/search.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project23/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/project23/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project24/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/project24/edit_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project24/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/project24/profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/controllers/LogoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/LogoutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/controllers/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/SearchController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project32/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/models/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tlu/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/tlu/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/models/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/models/Search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/layouts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/views/link_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/link_html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/views/search/result_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/search/result_search.php" afterDir="false" />
     </list>
->>>>>>> 1cb8151adf0b6e8f368f53a71afedd1324482667
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,11 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Contacts__Management",
-<<<<<<< HEAD
-    "last_opened_file_path": "D:/CongNgheWeb/newmvc/2024_CSE485_CongngheWeb/project32",
-=======
-    "last_opened_file_path": "E:/cnweb/2024_CSE485_CongngheWeb/project32/app/views/home",
->>>>>>> 1cb8151adf0b6e8f368f53a71afedd1324482667
+    "last_opened_file_path": "E:/cnweb/2024_CSE485_CongngheWeb",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -115,17 +106,25 @@
       <workItem from="1710175975817" duration="254000" />
       <workItem from="1710178921296" duration="84000" />
       <workItem from="1710209614354" duration="7790000" />
-<<<<<<< HEAD
-      <workItem from="1710218051741" duration="21611000" />
-      <workItem from="1710260071807" duration="15000" />
-=======
-      <workItem from="1710218051741" duration="23352000" />
->>>>>>> 1cb8151adf0b6e8f368f53a71afedd1324482667
+      <workItem from="1710218051741" duration="26840000" />
+      <workItem from="1710299434829" duration="32000" />
+      <workItem from="1710316136890" duration="6295000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/project32/app/views/layouts/header.php</url>
+          <line>60</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
