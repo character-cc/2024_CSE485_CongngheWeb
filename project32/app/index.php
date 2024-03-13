@@ -16,6 +16,10 @@ if($controller=='news'){
    $category = isset($_GET['category'])? $_GET['category']:'1';
    $_SESSION['category'] = $category;
 }
+if($controller=='news'&& $category!=""){
+    $newid = isset($_GET['newid'])?$_GET['newid']:'';
+    $_SESSION['newsid']= $newid;
+}
 
 if(isset($_GET['variable1'])){
     $variable1 = $_GET['variable1'];
@@ -33,7 +37,7 @@ if(!file_exists($path)){
     die('Tep tin khong ton tai');
     exit(1);
 }
-echo $path;
+
 include($path);
 $myController = new $controller();
 if(!method_exists($controller, $action)){
@@ -41,8 +45,4 @@ if(!method_exists($controller, $action)){
     exit(1);
 }
 $myController->$action($variable1);
-<<<<<<< HEAD
 
-=======
->>>>>>> 1cb8151adf0b6e8f368f53a71afedd1324482667
-?>
