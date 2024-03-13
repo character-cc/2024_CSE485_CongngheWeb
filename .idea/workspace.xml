@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/2024_CSE485_CongngheWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/controllers/LogoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/LogoutController.php" afterDir="false" />
-    </list>
+    <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,8 +40,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging Contacts__Management",
-    "last_opened_file_path": "E:/cnweb/2024_CSE485_CongngheWeb/project32/app/views/home",
+    "git-widget-placeholder": "Contacts__Management",
+    "last_opened_file_path": "D:/CongNgheWeb/newmvc/2024_CSE485_CongngheWeb/project32",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -103,6 +98,7 @@
       <workItem from="1710178921296" duration="84000" />
       <workItem from="1710209614354" duration="7790000" />
       <workItem from="1710218051741" duration="21611000" />
+      <workItem from="1710260071807" duration="15000" />
     </task>
     <servers />
   </component>

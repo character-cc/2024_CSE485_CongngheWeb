@@ -55,10 +55,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <?php
-                    include('./services/Postservices.php');
+                    require_once APP.'/app/services/Postservices.php';
 
                     $controller = $_SESSION['controller'];
-                    $postService = new PostService();
+                    $postService = new Postservices();
                     $posts = $postService->getAllPosts();
 
                     foreach ($posts as $post) {
