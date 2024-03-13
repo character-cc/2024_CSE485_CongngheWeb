@@ -1,5 +1,5 @@
 <?php
-require_once '../config/DB.php';
+include __DIR__ . '/../config/DB.php';
 global $conn;
 $EmployeeID = isset($_GET['ID']) ? $_GET['ID'] : null;
 if ($EmployeeID) {
@@ -40,7 +40,7 @@ if ($EmployeeID) {
 
 </header>
 <body>
-<form style="display: flex;flex-direction: column" method="post" action="ChangeProcess.php">
+<form style="display: flex;flex-direction: column" method="post" action="./index.php?controller=Info&action=ChangeProcess&ID=<?= isset($Employee['EmployeeID']) ? $Employee['EmployeeID'] : '' ?>">
     <table>
         EmployeeID : <input name="EmployeeID" type="text" value="<?= isset($Employee['EmployeeID']) ? $Employee['EmployeeID'] : '' ?>">
         Username : <input name="Username" type="text" value="<?= isset($User['Username']) ? $User['Username'] : '' ?>">
@@ -51,11 +51,13 @@ if ($EmployeeID) {
         Email : <input name="Email" type="text" value="<?= isset($Employee['Email']) ? $Employee['Email'] : '' ?>">
         SĐT : <input name="MobilePhone" type="text" value="<?= isset($Employee['MobilePhone']) ? $Employee['MobilePhone'] : '' ?>">
         Position : <input name="Position" type="text" value="<?= isset($Employee['Position']) ? $Employee['Position'] : '' ?>">
-        Avatar : <input name="Avatar" type="text" value="<?= isset($Employee['Avatar']) ? $Employee['Avatar'] : '' ?>">
+        <label for="image">Avatar:</label>
+        <input type="file" name="Avatar" id="image">
+
         DepartmentID : <input name="DepartmentID" type="text" value="<?= isset($Employee['DepartmentID']) ? $Employee['DepartmentID'] : '' ?>">
     </table>
     <button type="submit">Sửa lại</button>
-</form><button><a href="/Admin/main.php">Trở về</a></button>
+</form><button><a href="./index.php?controller=Info&action=Main&Role=<?= $_SESSION['user_role']?>">Trở về</a></button>
 </body>
 </html>
 

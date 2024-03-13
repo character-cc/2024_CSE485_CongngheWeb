@@ -1,6 +1,6 @@
 <?php
 include('change.php');
-include '../config/DB.php';
+include __DIR__ . '/../config/DB.php';
 global $conn;
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $EmployeeID = isset($_POST['EmployeeID']) ? $_POST['EmployeeID'] : null;
@@ -14,8 +14,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $Position = isset($_POST['Position']) ? $_POST['Position'] : null;
     $Avatar = isset($_POST['Avatar']) ? $_POST['Avatar'] : null;
     $DepartmentID = isset($_POST['DepartmentID']) ? $_POST['DepartmentID'] : null;
+    $target_dir = '../public/assets/images';
+    if (isset($_FILES["image"])) {
+        $target_file = $target_dir . basename($_FILES["image"]["name"]);
 
-    if ($EmployeeID !== null ) {
+        if ($_FILES["image"]["error"] == UPLOAD_ERR_OK) {
+            if (move_uploaded_file($_FILES["image"]["tmp_name"], $target_file)) {
+                echo "Tệp ảnh " . basename($_FILES["image"]["name"]) . " đã được tải lên thành công.";
+            } else {
+                echo "Đã xảy ra lỗi khi tải lên tệp ảnh.";
+            }
+        } else {
+            echo "Đã xảy ra lỗi khi tải lên tệp ảnh: " . $_FILES["image"]["error"];
+        }
+    }
+
+if ($EmployeeID !== null ) {
         $sql = "UPDATE Employees 
                 SET FullName = '$FullName', Address = '$Address', 
                     Email = '$Email', MobilePhone = '$MobilePhone', 

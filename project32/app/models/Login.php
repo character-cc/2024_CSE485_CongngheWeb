@@ -34,7 +34,7 @@ class Login
         if ($result->num_rows > 0) {
             $row = $result ->fetch_assoc();
             $_SESSION['user_role'] = $row['Role'];
-            $_SESSION['user_id'] = $row['Username'];
+            $_SESSION['user_id'] = $row['EmployeeID'];
             // Đăng nhập thành công
             $conn -> close();
             return true;

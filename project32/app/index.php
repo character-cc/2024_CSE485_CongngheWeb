@@ -45,8 +45,6 @@ if(!method_exists($controller, $action)){
     exit(1);
 }
 $myController->$action($variable1);
-<<<<<<< HEAD
-?>
-=======
 
->>>>>>> 767ba2fe0f47701d124077a0cb1560d49099874f
+?>
+

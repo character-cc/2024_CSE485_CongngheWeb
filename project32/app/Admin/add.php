@@ -4,7 +4,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </header>
 <body>
-<form style="display: flex;flex-direction: column" method="post" action="/Admin/AddProcess.php">
+<form style="display: flex;flex-direction: column" method="post" action="./index.php?controller=Info&action=AddProcess">
     <table>
         EmployeeID :<input name="EmployeeID" class="form-control" type="text" placeholder="Default input" aria-label="default input example">
         Username :<input name="Username" class="form-control" type="text" placeholder="Default input" aria-label="default input example">
@@ -21,7 +21,7 @@
         <button type="submit" class="btn btn-primary mb-3" value="Thêm Tài Khoản">Thêm Tài Khoản</button>
     </div>
 </form><div class="col-auto">
-    <button type="submit" class="btn btn-primary mb-3"><a href="main.php" style="color: white ; text-decoration: none">Thêm Tài Khoản</a></button>
+    <button  type="submit" class="btn btn-primary mb-3"> <a style="text-decoration: none;color: white" href="./index.php?controller=Info&action=Main&Role=<?= $_SESSION['user_role']?>">Trở về</a></button>
 </div>
 </body>
 </html>

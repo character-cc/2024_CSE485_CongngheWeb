@@ -29,4 +29,4 @@ if (isset($_GET['ID'])) {
     }
 }
 ?>
-<a href="/Admin/main.php">trở về</a>
+<a href="./index.php?controller=Info&action=Main&Role=<?= $_SESSION['user_role']?>">Trở về</a>
