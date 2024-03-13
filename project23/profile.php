@@ -33,7 +33,7 @@ if ($user) {
     echo "<br>Email: " . $user['email'];
 
 } else {
-    echo "Error: User not found.";
+    echo "Error: Login not found.";
 }
 
 ?>

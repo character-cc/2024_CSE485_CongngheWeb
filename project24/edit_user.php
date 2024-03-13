@@ -41,6 +41,6 @@ foreach ($users as $u) {
         break;
     }
 }
-echo "<h2>Edit User: " . $user['name'] . "</h2>";
+echo "<h2>Edit Login: " . $user['name'] . "</h2>";
 
 ?>

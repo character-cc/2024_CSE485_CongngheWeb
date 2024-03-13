@@ -58,6 +58,6 @@ if ($user) {
     echo "<br><a href='logout.php'>Log Out</a>";
     // ... display other information based on permissions
 } else {
-    echo "Error: User not found.";
+    echo "Error: Login not found.";
 }
 ?>
