@@ -18,6 +18,7 @@
                         <?php if(!isset($_SESSION['user_id'])): ?>
                         <a title="nav-link" style="color: #ca373d " href="./index.php?controller=login&action=displayLogin">(+) Login</a>
                         <?php else : ?>
+                            <a title="nav-link" style="color: #ca373d " href="./index.php?controller=Info&action=CheckUser&Role=<?= $_SESSION['user_role']?>">Thông tin tài khoản</a>
                          <a title="nav-link" style="color: #ca373d " href="./index.php?controller=logout&action=logout">(+) LogOut</a>
                         <?php endif; ?>
                         <div style="border-bottom: 1px solid #9ca3af; margin-top: 2px;width: 75px;"></div>

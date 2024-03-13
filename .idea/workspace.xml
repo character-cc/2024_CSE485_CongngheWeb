@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project32/app/views/search/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/Admin/AddProcess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/Admin/ChangeProcess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/Admin/DeleteProcess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/Admin/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/Admin/change.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/Admin/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/Admin/info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/Admin/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/config/DB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project32/app/models/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/controllers/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/SearchController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/InfoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project32/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/models/Search.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/models/Search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/models/Department.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/models/Department.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/models/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/models/Employee.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project32/app/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/layouts/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/views/link_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/link_html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/views/search/result_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/search/result_search.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +49,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2ckeL9QMNDG5LjsSoXT6MT8ttMS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Contacts__Management",
-    "last_opened_file_path": "E:/cnweb/2024_CSE485_CongngheWeb",
+    "last_opened_file_path": "C:/Users/Laptop/Product/2024_CSE485_CongngheWeb/project32/app/config",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -63,10 +74,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop\Product\2024_CSE485_CongngheWeb\project32\app\config" />
+      <recent name="C:\Users\Laptop\Product\2024_CSE485_CongngheWeb\project32\app" />
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project32\app\views\home" />
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project32\app\views\layouts" />
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project24" />
-      <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project21\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project32\app\views\layouts" />
@@ -109,22 +121,12 @@
       <workItem from="1710218051741" duration="26840000" />
       <workItem from="1710299434829" duration="32000" />
       <workItem from="1710316136890" duration="6295000" />
+      <workItem from="1710325603523" duration="4503000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/project32/app/views/layouts/header.php</url>
-          <line>60</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
