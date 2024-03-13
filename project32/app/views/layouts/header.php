@@ -45,6 +45,7 @@
 <!--        <button type="submit">Tìm</button>-->
 <!--    </form>-->
     <?php include ("./views/search/search.php") ?>
+    
     <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #ca373d">
         <div class="container">
             <a class="navbar-brand " href="#" style="color: #f0ff00">TLU</a>
@@ -56,12 +57,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <?php
-                    include('./services/Postservices.php');
-
+                    require_once APP.'/app/services/Postservices.php';
                     $controller = $_SESSION['controller'];
-                    $postService = new PostService();
+                    $postService = new Postservices();
                     $posts = $postService->getAllPosts();
-
                     foreach ($posts as $post) {
                         if ($controller == $post['controller']) {
                             ?>
@@ -79,10 +78,7 @@
                         <?php }
                     } // Kết thúc vòng lặp foreach
                     ?>
-
-
                 </ul>
-
             </div>
         </div>
     </nav>

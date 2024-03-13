@@ -108,12 +108,23 @@
       <workItem from="1710209614354" duration="7790000" />
       <workItem from="1710218051741" duration="26840000" />
       <workItem from="1710299434829" duration="32000" />
-      <workItem from="1710316136890" duration="5586000" />
+      <workItem from="1710316136890" duration="6295000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/project32/app/views/layouts/header.php</url>
+          <line>60</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

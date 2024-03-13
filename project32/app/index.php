@@ -1,6 +1,8 @@
 <?php
-include ("./views/link_html.php");
+require_once ('config/config.php');
+require_once ("./views/link_html.php");
 //localhost/newmvc/index.php?controller=A&action=B
+
 $controller = isset($_GET['controller'])? $_GET['controller'] : 'home';
 session_start();
 $_SESSION['controller'] = $controller;
@@ -8,6 +10,11 @@ if(isset($_GET['action'])){
     $action = $_GET['action'];
 }else{
     $action = 'index';
+}
+
+if($controller=='news'){
+   $category = isset($_GET['category'])? $_GET['category']:'1';
+   $_SESSION['category'] = $category;
 }
 
 if(isset($_GET['variable1'])){
@@ -21,7 +28,7 @@ $controller = ucfirst($controller);
 $controller = $controller.'Controller';
 $path = 'controllers/'.$controller.'.php';
 
-//Muc tieu sau cung
+
 if(!file_exists($path)){
     die('Tep tin khong ton tai');
     exit(1);
@@ -33,7 +40,8 @@ if(!method_exists($controller, $action)){
     exit(1);
 }
 $myController->$action($variable1);
-?>
+<<<<<<< HEAD
 
-</body>
-</html>
+=======
+>>>>>>> 1cb8151adf0b6e8f368f53a71afedd1324482667
+?>
