@@ -8,7 +8,6 @@ class NewsController
         $m= new Postservices();
         $xs = $m->getALLCategory();
         $es = $m->getALLNews();
-        //
         require_once APP.'/app/views/news/news.php';
     }
     public function dat()

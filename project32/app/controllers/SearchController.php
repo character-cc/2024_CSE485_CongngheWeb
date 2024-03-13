@@ -15,9 +15,6 @@ class SearchController
             $input_search = $_SESSION['search'];
         }
         $data = $s ->getDataBySearch($contact,$input_search);
-//        echo "<pre>";
-//        print_r($data);
-//        echo  " </pre>";
         include ("./views/search/result_search.php");
     }
 }

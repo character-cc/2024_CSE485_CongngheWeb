@@ -40,8 +40,3 @@ if(!method_exists($controller, $action)){
     exit(1);
 }
 $myController->$action($variable1);
-<<<<<<< HEAD
-
-=======
->>>>>>> 1cb8151adf0b6e8f368f53a71afedd1324482667
-?>

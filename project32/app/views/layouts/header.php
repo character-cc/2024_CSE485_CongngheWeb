@@ -16,39 +16,21 @@
                 <ul style="list-style: none; align-items: center;">
                     <li>
                         <?php if(!isset($_SESSION['user_id'])): ?>
-                        <a title="nav-link" style="color: #ca373d " href="./index.php?controller=login&action=displayLogin">(+) Login</a>
+                        <a title="nav-link" style="color: #ca373d ; text-decoration: none" href="./index.php?controller=login&action=displayLogin">Login</a>
                         <?php else : ?>
-                         <a title="nav-link" style="color: #ca373d " href="./index.php?controller=logout&action=logout">(+) LogOut</a>
+                         <a title="nav-link" style="color: #ca373d ; text-decoration: none" href="./index.php?controller=logout&action=logout">LogOut</a>
                         <?php endif; ?>
-                        <div style="border-bottom: 1px solid #9ca3af; margin-top: 2px;width: 75px;"></div>
-                    </li>
-                    <li>
-                        <a style="color: #ca373d">Ngôn ngữ: </a>
                         <img style="width: 20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/225px-Flag_of_Vietnam.svg.png" class="img-fluid">
                         <img style="width: 25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/300px-Flag_of_Australia_%28converted%29.svg.png" class="img-fluid">                    </li>
-                        <div style="border-bottom: 1px solid #9ca3af; margin-top: 2px;"></div>
+                        <div style="border-bottom: 1px solid #9ca3af; margin-top: 2px;width: 100px;"></div>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
-
-<!--    <form action="./index.php?controller=search&action=search" method="post">-->
-<!--        <input type="text" name="search" required>-->
-<!--        <input type="radio" id="vehicle1" name="contact" value="Email" checked>-->
-<!--        <label for="Email"> Email</label><br>-->
-<!--        <input type="radio" id="vehicle1" name="contact" value="FullName">-->
-<!--        <label for="Name"> UserName</label><br>-->
-<!--        <input type="radio" id="vehicle1" name="contact" value="DepartmentName">-->
-<!--        <label for="DepartmentName"> DepartmentName</label><br>-->
-<!--        <input type="radio" id="vehicle1" name="contact" value="Position">-->
-<!--        <label for="Name"> Position</label><br>-->
-<!--        <button type="submit">Tìm</button>-->
-<!--    </form>-->
-    <?php include ("./views/search/search.php") ?>
-    
     <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #ca373d">
         <div class="container">
-            <a class="navbar-brand " href="#" style="color: #f0ff00">TLU</a>
+            <a class="navbar-brand " href="./index.php" style="color: white"><i class="fa-solid fa-house"></i></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -76,7 +58,7 @@
                                 </a>
                             </li>
                         <?php }
-                    } // Kết thúc vòng lặp foreach
+                    }
                     ?>
                 </ul>
             </div>

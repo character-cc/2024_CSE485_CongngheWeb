@@ -5,6 +5,7 @@ if(empty($variable1)) $currentPage = 1;
 $totalPages = ceil(count($data) / $itemsPerPage);
 $DepartmentItems = array_slice($data, ($currentPage - 1) * $itemsPerPage, $itemsPerPage);
 $cnt = 1;
+include ("./views/layouts/header.php");
 ?>
 <nav>
     <div class="container p-5">

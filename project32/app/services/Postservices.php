@@ -53,6 +53,25 @@ class Postservices
         ];
         return $posts;
     }
+
+    public function getDepartmentLimit()
+    {
+        try{
+            $conn = mysqli_connect('localhost', 'root', '', 'contacttlu');
+            $sql = "SELECT * FROM departments LIMIT 4";
+            $result = mysqli_query($conn,$sql);
+            $data=[] ;
+            if(mysqli_num_rows($result)>0){
+                while ($row = mysqli_fetch_assoc($result)){
+                    $data[] = $row;
+                }
+            }
+            return $data;
+        }catch (mysqli_sql_exception $e) {
+            return $newss=[];
+            echo "Đã xảy ra lỗi: " . $e->getMessage();
+        }
+    }
 }
 
 ?>

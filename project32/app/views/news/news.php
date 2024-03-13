@@ -66,7 +66,6 @@
             </ul>
         </div>
         <div class="container-fluid">
-
                     <?php
                     foreach ($es as $e):
                     if($category == $e->getCategoryID()) {?>

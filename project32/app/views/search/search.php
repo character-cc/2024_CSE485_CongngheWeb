@@ -1,6 +1,6 @@
 <form action="./index.php?controller=search&action=search" method="post">
     <div class="input-group mb-1">
-        <input id="search-input" type="search" id="form1" class="form-control" name="search" placeholder="Search..." aria-label="Search" />
+        <input id="search-input" type="search" id="form1" class="form-control" name="search" required placeholder="Search..." aria-label="Search" />
         <button id="search-button" type="submit" class="btn btn-primary">
             <i class="fas fa-search"></i>
         </button>
