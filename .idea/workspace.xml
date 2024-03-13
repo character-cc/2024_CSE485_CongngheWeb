@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project32/app/Admin/AddProcess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project32/app/Admin/ChangeProcess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project32/app/Admin/DeleteProcess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project32/app/Admin/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project32/app/Admin/change.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project32/app/Admin/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project32/app/Admin/info.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project32/app/Admin/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project32/app/config/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project32/app/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/InfoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/models/Department.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/models/Department.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/models/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/models/Employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project32/app/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/layouts/header.php" afterDir="false" />
-    </list>
+    <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +104,7 @@
       <workItem from="1710218051741" duration="26840000" />
       <workItem from="1710299434829" duration="32000" />
       <workItem from="1710316136890" duration="6295000" />
-      <workItem from="1710325603523" duration="4503000" />
+      <workItem from="1710325603523" duration="5123000" />
     </task>
     <servers />
   </component>
