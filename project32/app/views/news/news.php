@@ -17,11 +17,11 @@
 </head>
 <body>
 <?php require_once APP.'/app/views/layouts/header.php' ?>
-<div class="container">
+<div class="container mt-3 mb-5">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a class="navbar-brand "  href="#" style="color: #3d509f;">TLU</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a class="navbar-brand " href="#" style="color: #ca373d;text-transform: uppercase; ">Tin tức & thông báo</a></li>
+            <li class="breadcrumb-item" aria-current="page"><a class="navbar-brand " href="<?= DOMAIN.'index.php?controller=news';?>" style="color: #ca373d;text-transform: uppercase; ">Tin tức & thông báo</a></li>
             <?php
             if (session_status() == PHP_SESSION_NONE) {
                 session_start();
@@ -38,6 +38,7 @@
 
         </ol>
     </nav>
+
     <div class="d-flex ">
         <div class="" style="width: 25rem;margin-right: 1rem;">
 
@@ -70,16 +71,18 @@
                     foreach ($es as $e):
                     if($category == $e->getCategoryID()) {?>
                         <div class="card mb-1" style="max-width: 100%;">
-                        <div class="row g-0">
-                        <div class="col-md-3 d-flex  align-items-center">
+                            <div class="row g-0">
+                            <div class="col-md-3 d-flex  align-items-center">
                             <img style="width: 12rem" src="<?php echo $e->getLinkImg(); ?>" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
+                            </div>
+                            <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title"><?php echo $e->getTitle(); ?></h5>
+
+                                <a class="nav-link" style="color: black;padding-left: 0;" href="<?= DOMAIN.'index.php?controller=news';?>"><h5 class="card-title"><strong><?php echo $e->getTitle(); ?></strong></h5></a>
+                                <p class="card-text" style="max-height: 50px; overflow: hidden;"><?php echo $e->getContent(); ?></p>
                                 <p class="card-text"><small class="text-muted"><?php echo $e->getPublishDate(); ?></small></p>
                             </div>
-                        </div>
+                            </div>
                         </div>
 
                         </div>

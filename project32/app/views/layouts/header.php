@@ -19,6 +19,9 @@
                         <a title="nav-link" style="color: #ca373d ; text-decoration: none" href="./index.php?controller=login&action=displayLogin">Login</a>
                         <?php else : ?>
                          <a title="nav-link" style="color: #ca373d ; text-decoration: none" href="./index.php?controller=logout&action=logout">LogOut</a>
+                            <a title="nav-link" style="color: #ca373d " href="./index.php?controller=Info&action=CheckUser&Role=<?= $_SESSION['user_role']?>">Thông tin tài khoản</a>
+                         <a title="nav-link" style="color: #ca373d " href="./index.php?controller=logout&action=logout">(+) LogOut</a>
+
                         <?php endif; ?>
                         <img style="width: 20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/225px-Flag_of_Vietnam.svg.png" class="img-fluid">
                         <img style="width: 25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/300px-Flag_of_Australia_%28converted%29.svg.png" class="img-fluid">                    </li>

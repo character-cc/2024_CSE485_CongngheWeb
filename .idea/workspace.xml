@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03c2ea9-4fe0-4df2-bf9c-931a3f4b496f" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/project32/app/views/layouts/article.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/project32/app/views/layouts/left_aside.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/project32/app/views/layouts/right_aside.php" afterDir="false" />
@@ -20,6 +21,20 @@
       <change beforePath="$PROJECT_DIR$/project32/app/views/news/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/news/news.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project32/app/views/search/result_search.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/search/result_search.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project32/app/views/search/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/search/search.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/Admin/AddProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/Admin/AddProcess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/Admin/ChangeProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/Admin/ChangeProcess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/Admin/DeleteProcess.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/Admin/DeleteProcess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/Admin/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/Admin/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/Admin/change.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/Admin/change.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/Admin/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/Admin/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/Admin/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/Admin/info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/Admin/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/controllers/InfoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/controllers/InfoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project32/app/models/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/project32/app/models/Login.php" afterDir="false" />
+>>>>>>> b8013efc60318eaa27b09ea0bc077f9b8febc92b
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +63,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2ckeL9QMNDG5LjsSoXT6MT8ttMS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,7 +75,11 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Contacts__Management&quot;,
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;E:/cnweb/2024_CSE485_CongngheWeb&quot;,
+=======
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laptop/Product/2024_CSE485_CongngheWeb/project32/app/config&quot;,
+>>>>>>> b8013efc60318eaa27b09ea0bc077f9b8febc92b
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -70,12 +92,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop\Product\2024_CSE485_CongngheWeb\project32\app\config" />
+      <recent name="C:\Users\Laptop\Product\2024_CSE485_CongngheWeb\project32\app" />
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project32\app\views\home" />
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project32\app\views\layouts" />
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project24" />
-      <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project21\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop\Product\2024_CSE485_CongngheWeb\project32\app\Admin" />
+      <recent name="C:\Users\Laptop\Product\2024_CSE485_CongngheWeb\project32\app\views\layouts" />
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project32\app\views\layouts" />
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project3\view" />
       <recent name="E:\cnweb\2024_CSE485_CongngheWeb\project24" />
@@ -115,9 +140,15 @@
       <workItem from="1710209614354" duration="7790000" />
       <workItem from="1710218051741" duration="26840000" />
       <workItem from="1710299434829" duration="32000" />
+<<<<<<< HEAD
       <workItem from="1710316136890" duration="7067000" />
       <workItem from="1710323254460" duration="1176000" />
       <workItem from="1710335995040" duration="7646000" />
+=======
+      <workItem from="1710316136890" duration="6295000" />
+      <workItem from="1710325603523" duration="5123000" />
+      <workItem from="1710332977347" duration="8458000" />
+>>>>>>> b8013efc60318eaa27b09ea0bc077f9b8febc92b
     </task>
     <servers />
   </component>
