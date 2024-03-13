@@ -3,12 +3,10 @@ include("./config/database.php");
 class Search
 {
     private $total_page;
-    public function getDataBySearch()
+    public function getDataBySearch($contact , $input_search)
     {
         $cnt = new connectDB();
         $conn = $cnt->getConn();
-        $contact = $_POST['contact'];
-        $input_search = $_POST['search'];
         $data = [];
         if($contact == "DepartmentName" || $contact == "Email"){
             $sql = "SELECT * FROM departments WHERE ";
@@ -31,11 +29,24 @@ class Search
                 $data[] = $row;
             }
         }
-
         $conn -> close();
-        $data = array('departments' => $departments , 'employees' => $employees);
         $this -> total_page =  count($data);
         return $data;
+    }
 
+    /**
+     * @return mixed
+     */
+    public function getTotalPage()
+    {
+        return $this->total_page;
+    }
+
+    /**
+     * @param mixed $total_page
+     */
+    public function setTotalPage($total_page): void
+    {
+        $this->total_page = $total_page;
     }
 }

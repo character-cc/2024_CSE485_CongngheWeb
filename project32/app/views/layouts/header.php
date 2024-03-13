@@ -32,18 +32,19 @@
         </div>
     </div>
 
-    <form action="./index.php?controller=search&action=search" method="post">
-        <input type="text" name="search" required>
-        <input type="radio" id="vehicle1" name="contact" value="Email" checked>
-        <label for="Email"> Email</label><br>
-        <input type="radio" id="vehicle1" name="contact" value="FullName">
-        <label for="Name"> UserName</label><br>
-        <input type="radio" id="vehicle1" name="contact" value="DepartmentName">
-        <label for="DepartmentName"> DepartmentName</label><br>
-        <input type="radio" id="vehicle1" name="contact" value="Position">
-        <label for="Name"> Position</label><br>
-        <button type="submit">Tìm</button>
-    </form>
+<!--    <form action="./index.php?controller=search&action=search" method="post">-->
+<!--        <input type="text" name="search" required>-->
+<!--        <input type="radio" id="vehicle1" name="contact" value="Email" checked>-->
+<!--        <label for="Email"> Email</label><br>-->
+<!--        <input type="radio" id="vehicle1" name="contact" value="FullName">-->
+<!--        <label for="Name"> UserName</label><br>-->
+<!--        <input type="radio" id="vehicle1" name="contact" value="DepartmentName">-->
+<!--        <label for="DepartmentName"> DepartmentName</label><br>-->
+<!--        <input type="radio" id="vehicle1" name="contact" value="Position">-->
+<!--        <label for="Name"> Position</label><br>-->
+<!--        <button type="submit">Tìm</button>-->
+<!--    </form>-->
+    <?php include ("./views/search/search.php") ?>
     <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #ca373d">
         <div class="container">
             <a class="navbar-brand " href="#" style="color: #f0ff00">TLU</a>

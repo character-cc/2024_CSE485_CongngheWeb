@@ -26,7 +26,6 @@ if(!file_exists($path)){
     die('Tep tin khong ton tai');
     exit(1);
 }
-echo $path;
 include($path);
 $myController = new $controller();
 if(!method_exists($controller, $action)){
