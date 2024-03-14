@@ -10,12 +10,11 @@ class LoginController
         $checkuser = new Login($input_username,$input_password);
         if($checkuser ->checkInfor()){
             header("Location: ./index.php");
-            exit; // Dừng việc thực thi mã PHP tiếp theo sau khi chuyển hướng
+            exit;
         }
         else{
-         //   echo "Lỗi";
             header("Location: ./index.php?controller=login&action=displayLogin&variable1=error");
-           exit; // Dừng việc thực thi mã PHP tiếp theo sau khi chuyển hướng
+           exit;
         }
     }
     public function displayLogin($error)

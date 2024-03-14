@@ -35,6 +35,7 @@ class Login
             $row = $result ->fetch_assoc();
             $_SESSION['user_role'] = $row['Role'];
             $_SESSION['user_id'] = $row['EmployeeID'];
+            $_SESSION['EmployID'] = $row['EmployeeID'];
             // Đăng nhập thành công
             $conn -> close();
             return true;

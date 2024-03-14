@@ -56,11 +56,11 @@ class User
         $this->EmployeeID = $EmployeeID;
     }
 
-    public static function getData($conn)
+    public static function getData($connection)
     {
         $usersArray = array();
         $sql = 'SELECT * FROM users ';
-        $Result = mysqli_query($conn, $sql);
+        $Result = mysqli_query($connection, $sql);
 
         if (mysqli_num_rows($Result) > 0) {
             while ($row = mysqli_fetch_assoc($Result)) {

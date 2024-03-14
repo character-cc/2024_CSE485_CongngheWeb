@@ -3,9 +3,11 @@ class InfoController
 {
     public function CheckUser()
     {
-        if (isset($_GET['Role'])) {
+        if ($_GET['Role'] == 'admin') {
             include './views/layouts/main.php';
 
+        } else{
+            include './User/UserChange.php';
         }
     }
     public function Infomation()
