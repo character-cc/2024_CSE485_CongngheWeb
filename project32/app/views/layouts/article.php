@@ -1,6 +1,6 @@
 <?php include ("./views/search/search.php")?>
 <div class="d-flex my-2 flex-wrap ">
-    <?php foreach ($data as $row): ?>
+    <?php foreach ($department_data as $row): ?>
     <div class="w-50 my-2">
     <div class="card m-2 h-100" style="max-width: 540px;">
         <div class="row no-gutters">

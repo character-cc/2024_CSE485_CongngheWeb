@@ -6,7 +6,8 @@ class HomeController
   {
       include ("./views/layouts/header.php");
       $ps= new Postservices();
-      $data = $ps ->getDepartmentLimit();
+      $department_data = $ps ->getDepartmentLimit();
+      $news_data = $ps ->getNewsLimit();
       include ("./views/layouts/section.php");
 
   }

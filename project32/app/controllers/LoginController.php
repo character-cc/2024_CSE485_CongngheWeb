@@ -23,9 +23,6 @@ class LoginController
 //            header("Location: ./index.php");
 //            exit;
 //        }
-        if(!empty($error)){
-            echo "Nhập sai tài khoản hoặc mật khẩu";
-        }
         include ("./views/login.php");
     }
 }

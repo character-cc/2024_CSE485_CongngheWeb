@@ -14,6 +14,11 @@
 
 </head>
 <body>
+<script>
+ <?php if(!empty($error)): ?>
+            alert("Sai tài khoản hoặc mật khẩu");
+<?php endif;?>
+</script>
 <div class="container">
     <input type="checkbox" id="check">
     <div class="login form">
